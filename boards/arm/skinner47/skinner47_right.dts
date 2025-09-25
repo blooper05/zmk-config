@@ -1,5 +1,4 @@
 #include "skinner47.dtsi"
-#include <dt-bindings/led/led.h>
 
 &pinctrl {
     spi2_default: spi2_default {
