@@ -39,9 +39,6 @@ if BOARD_SKINNER47_LEFT || BOARD_SKINNER47_RIGHT
     endchoice
   endif
 
-  config I2C
-    default y
-
   config SPI
     default y
 endif
