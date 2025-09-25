@@ -64,10 +64,4 @@ nice_view_spi: &spi2 {
         layers = <5>;
         input-processors = <&zip_xy_to_scroll_mapper>;
     };
-
-    // When layer 6 is active, the trackball will move more slowly
-    snipe {
-        layers = <6>;
-        input-processors = <&zip_xy_scaler 1 3>;
-    };
 };
