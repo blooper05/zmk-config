@@ -57,11 +57,8 @@ nice_view_spi: &spi2 {
 };
 
 &pmw_listener {
-    status = "okay";
-
-    // When layer 5 is active, the trackball will act as a mouse wheel
     scroller {
         layers = <5>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 8>;
     };
 };

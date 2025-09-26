@@ -75,3 +75,7 @@ nice_view_spi: &spi2 {
             ;
     };
 };
+
+&pmw_listener {
+    status = "disabled";
+};

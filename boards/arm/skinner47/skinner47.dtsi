@@ -160,7 +160,6 @@ zephyr_udc0:&usbd {
 
     pmw_listener: pmw_listener {
         compatible = "zmk,input-listener";
-        status = "disabled";
         device = <&pmw_split>;
     };
 };
