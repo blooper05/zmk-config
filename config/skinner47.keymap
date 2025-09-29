@@ -18,6 +18,12 @@
             key-positions = <10 11>;
             bindings = <&kp BACKSPACE>;
         };
+
+        combo_return {
+            timeout-ms = <200>;
+            key-positions = <12 31>;
+            bindings = <&kp RETURN>;
+        };
     };
 
     keymap {
