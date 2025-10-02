@@ -24,6 +24,153 @@
             key-positions = <12 31>;
             bindings = <&kp RETURN>;
         };
+
+        combo_ga {
+            timeout-ms = <50>;
+            key-positions = <44 2>;
+            bindings = <&jp_GA>;
+            layers = <6>;
+        };
+
+        combo_da {
+            timeout-ms = <50>;
+            key-positions = <44 3>;
+            bindings = <&jp_DA>;
+            layers = <6>;
+        };
+
+        combo_go {
+            timeout-ms = <50>;
+            key-positions = <44 4>;
+            bindings = <&jp_GO>;
+            layers = <6>;
+        };
+
+        combo_za {
+            timeout-ms = <50>;
+            key-positions = <44 5>;
+            bindings = <&jp_ZA>;
+            layers = <6>;
+        };
+
+        combo_di {
+            timeout-ms = <50>;
+            key-positions = <41 7>;
+            bindings = <&jp_DI>;
+            layers = <6>;
+        };
+
+        combo_gu {
+            timeout-ms = <50>;
+            key-positions = <41 8>;
+            bindings = <&jp_GU>;
+            layers = <6>;
+        };
+
+        combo_du {
+            timeout-ms = <50>;
+            key-positions = <41 9>;
+            bindings = <&jp_DU>;
+            layers = <6>;
+        };
+
+        combo_vu {
+            timeout-ms = <50>;
+            key-positions = <44 13>;
+            bindings = <&jp_VU>;
+            layers = <6>;
+        };
+
+        combo_zi {
+            timeout-ms = <50>;
+            key-positions = <44 14>;
+            bindings = <&jp_ZI>;
+            layers = <6>;
+        };
+
+        combo_de {
+            timeout-ms = <50>;
+            key-positions = <44 15>;
+            bindings = <&jp_DE>;
+            layers = <6>;
+        };
+
+        combo_ge {
+            timeout-ms = <50>;
+            key-positions = <44 16>;
+            bindings = <&jp_GE>;
+            layers = <6>;
+        };
+
+        combo_ze {
+            timeout-ms = <50>;
+            key-positions = <44 17>;
+            bindings = <&jp_ZE>;
+            layers = <6>;
+        };
+
+        combo_ba {
+            timeout-ms = <50>;
+            key-positions = <41 18>;
+            bindings = <&jp_BA>;
+            layers = <6>;
+        };
+
+        combo_do {
+            timeout-ms = <50>;
+            key-positions = <41 19>;
+            bindings = <&jp_DO>;
+            layers = <6>;
+        };
+
+        combo_gi {
+            timeout-ms = <50>;
+            key-positions = <41 20>;
+            bindings = <&jp_GI>;
+            layers = <6>;
+        };
+
+        combo_bi {
+            timeout-ms = <50>;
+            key-positions = <44 26>;
+            bindings = <&jp_BI>;
+            layers = <6>;
+        };
+
+        combo_zu {
+            timeout-ms = <50>;
+            key-positions = <44 27>;
+            bindings = <&jp_ZU>;
+            layers = <6>;
+        };
+
+        combo_bu {
+            timeout-ms = <50>;
+            key-positions = <44 28>;
+            bindings = <&jp_BU>;
+            layers = <6>;
+        };
+
+        combo_be {
+            timeout-ms = <50>;
+            key-positions = <44 29>;
+            bindings = <&jp_BE>;
+            layers = <6>;
+        };
+
+        combo_zo {
+            timeout-ms = <50>;
+            key-positions = <41 31>;
+            bindings = <&jp_ZO>;
+            layers = <6>;
+        };
+
+        combo_bo {
+            timeout-ms = <50>;
+            key-positions = <41 33>;
+            bindings = <&jp_BO>;
+            layers = <6>;
+        };
     };
 
     macros {
@@ -152,21 +299,12 @@
             >;
         };
 
-        thumb_shift_seion {
+        thumb_shift_layer {
             bindings = <
 &trans  &jp_PERIOD  &jp_KA   &jp_TA  &jp_KO  &jp_SA                  &jp_RA  &jp_CHI  &jp_KU  &jp_TSU  &jp_COMMA  &trans
 &trans  &jp_U       &jp_SHI  &jp_TE  &jp_KE  &jp_SE                  &jp_HA  &jp_TO   &jp_KI  &jp_I    &jp_N      &trans
 &trans  &trans      &jp_HI   &jp_SU  &jp_FU  &jp_HE                  &jp_ME  &jp_SO   &jp_NE  &jp_HO   &trans     &trans
-&trans  &trans      &trans   &trans  &eisuu  &mo 7   &trans  &trans  &mo 7                             &trans     &trans
-            >;
-        };
-
-        thumb_shift_dakuon {
-            bindings = <
-&trans  &trans      &jp_GA   &jp_DA  &jp_GO  &jp_ZA                  &trans  &jp_DI   &jp_GU  &jp_DU   &trans     &trans
-&trans  &jp_VU      &jp_ZI   &jp_DE  &jp_GE  &jp_ZE                  &jp_BA  &jp_DO   &jp_GI  &trans   &trans     &trans
-&trans  &trans      &jp_BI   &jp_ZU  &jp_BU  &jp_BE                  &trans  &jp_ZO   &trans  &jp_BO   &trans     &trans
-&trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans  &trans                            &trans     &trans
+&trans  &trans      &trans   &trans  &eisuu  &trans  &trans  &trans  &trans                            &trans     &trans
             >;
         };
     };
