@@ -69,6 +69,30 @@
         ZMK_MACRO(jp_SO,     bindings = <&kp S &kp O>;)
         ZMK_MACRO(jp_NE,     bindings = <&kp N &kp E>;)
         ZMK_MACRO(jp_HO,     bindings = <&kp H &kp O>;)
+
+        ZMK_MACRO(jp_GA,     bindings = <&kp G &kp A>;)
+        ZMK_MACRO(jp_DA,     bindings = <&kp D &kp A>;)
+        ZMK_MACRO(jp_GO,     bindings = <&kp G &kp O>;)
+        ZMK_MACRO(jp_ZA,     bindings = <&kp Z &kp A>;)
+        ZMK_MACRO(jp_DI,     bindings = <&kp D &kp I>;)
+        ZMK_MACRO(jp_GU,     bindings = <&kp G &kp U>;)
+        ZMK_MACRO(jp_DU,     bindings = <&kp D &kp U>;)
+
+        ZMK_MACRO(jp_VU,     bindings = <&kp V &kp U>;)
+        ZMK_MACRO(jp_ZI,     bindings = <&kp Z &kp I>;)
+        ZMK_MACRO(jp_DE,     bindings = <&kp D &kp E>;)
+        ZMK_MACRO(jp_GE,     bindings = <&kp G &kp E>;)
+        ZMK_MACRO(jp_ZE,     bindings = <&kp Z &kp E>;)
+        ZMK_MACRO(jp_BA,     bindings = <&kp B &kp A>;)
+        ZMK_MACRO(jp_DO,     bindings = <&kp D &kp O>;)
+        ZMK_MACRO(jp_GI,     bindings = <&kp G &kp I>;)
+
+        ZMK_MACRO(jp_BI,     bindings = <&kp B &kp I>;)
+        ZMK_MACRO(jp_ZU,     bindings = <&kp Z &kp U>;)
+        ZMK_MACRO(jp_BU,     bindings = <&kp B &kp U>;)
+        ZMK_MACRO(jp_BE,     bindings = <&kp B &kp E>;)
+        ZMK_MACRO(jp_ZO,     bindings = <&kp Z &kp O>;)
+        ZMK_MACRO(jp_BO,     bindings = <&kp B &kp O>;)
     };
 
     keymap {
@@ -128,12 +152,21 @@
             >;
         };
 
-        thumb_shift_layer {
+        thumb_shift_seion {
             bindings = <
 &trans  &jp_PERIOD  &jp_KA   &jp_TA  &jp_KO  &jp_SA                  &jp_RA  &jp_CHI  &jp_KU  &jp_TSU  &jp_COMMA  &trans
 &trans  &jp_U       &jp_SHI  &jp_TE  &jp_KE  &jp_SE                  &jp_HA  &jp_TO   &jp_KI  &jp_I    &jp_N      &trans
 &trans  &trans      &jp_HI   &jp_SU  &jp_FU  &jp_HE                  &jp_ME  &jp_SO   &jp_NE  &jp_HO   &trans     &trans
-&trans  &trans      &trans   &trans  &eisuu  &trans  &trans  &trans  &trans                            &trans     &trans
+&trans  &trans      &trans   &trans  &eisuu  &mo 7   &trans  &trans  &mo 7                             &trans     &trans
+            >;
+        };
+
+        thumb_shift_dakuon {
+            bindings = <
+&trans  &trans      &jp_GA   &jp_DA  &jp_GO  &jp_ZA                  &trans  &jp_DI   &jp_GU  &jp_DU   &trans     &trans
+&trans  &jp_VU      &jp_ZI   &jp_DE  &jp_GE  &jp_ZE                  &jp_BA  &jp_DO   &jp_GI  &trans   &trans     &trans
+&trans  &trans      &jp_BI   &jp_ZU  &jp_BU  &jp_BE                  &trans  &jp_ZO   &trans  &jp_BO   &trans     &trans
+&trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans  &trans                            &trans     &trans
             >;
         };
     };
