@@ -9,7 +9,7 @@
 
         combo_escape    { key-positions = <0  1>;  bindings = <&kp ESCAPE>;    timeout-ms = <50>;  };
         combo_backspace { key-positions = <10 11>; bindings = <&kp BACKSPACE>; timeout-ms = <50>;  };
-        combo_return    { key-positions = <12 31>; bindings = <&kp RETURN>;    timeout-ms = <200>; };
+        combo_return    { key-positions = <12 31>; bindings = <&kp RETURN>;    timeout-ms = <500>; };
 
         combo_ga    { layers = <6>; key-positions = <44 2>;  bindings = <&jp_GA>;    };
         combo_da    { layers = <6>; key-positions = <44 3>;  bindings = <&jp_DA>;    };
