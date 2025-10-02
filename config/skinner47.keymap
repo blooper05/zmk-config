@@ -53,6 +53,13 @@
             layers = <6>;
         };
 
+        combo_pa {
+            timeout-ms = <50>;
+            key-positions = <41 6>;
+            bindings = <&jp_PA>;
+            layers = <6>;
+        };
+
         combo_di {
             timeout-ms = <50>;
             key-positions = <41 7>;
@@ -71,6 +78,13 @@
             timeout-ms = <50>;
             key-positions = <41 9>;
             bindings = <&jp_DU>;
+            layers = <6>;
+        };
+
+        combo_pi {
+            timeout-ms = <50>;
+            key-positions = <41 10>;
+            bindings = <&jp_PI>;
             layers = <6>;
         };
 
@@ -130,6 +144,13 @@
             layers = <6>;
         };
 
+        combo_po {
+            timeout-ms = <50>;
+            key-positions = <41 21>;
+            bindings = <&jp_PO>;
+            layers = <6>;
+        };
+
         combo_bi {
             timeout-ms = <50>;
             key-positions = <44 26>;
@@ -158,10 +179,24 @@
             layers = <6>;
         };
 
+        combo_pu {
+            timeout-ms = <50>;
+            key-positions = <41 30>;
+            bindings = <&jp_PU>;
+            layers = <6>;
+        };
+
         combo_zo {
             timeout-ms = <50>;
             key-positions = <41 31>;
             bindings = <&jp_ZO>;
+            layers = <6>;
+        };
+
+        combo_pe {
+            timeout-ms = <50>;
+            key-positions = <41 32>;
+            bindings = <&jp_PE>;
             layers = <6>;
         };
 
@@ -221,9 +256,11 @@
         ZMK_MACRO(jp_DA,     bindings = <&kp D &kp A>;)
         ZMK_MACRO(jp_GO,     bindings = <&kp G &kp O>;)
         ZMK_MACRO(jp_ZA,     bindings = <&kp Z &kp A>;)
+        ZMK_MACRO(jp_PA,     bindings = <&kp P &kp A>;)
         ZMK_MACRO(jp_DI,     bindings = <&kp D &kp I>;)
         ZMK_MACRO(jp_GU,     bindings = <&kp G &kp U>;)
         ZMK_MACRO(jp_DU,     bindings = <&kp D &kp U>;)
+        ZMK_MACRO(jp_PI,     bindings = <&kp P &kp I>;)
 
         ZMK_MACRO(jp_VU,     bindings = <&kp V &kp U>;)
         ZMK_MACRO(jp_ZI,     bindings = <&kp Z &kp I>;)
@@ -233,12 +270,15 @@
         ZMK_MACRO(jp_BA,     bindings = <&kp B &kp A>;)
         ZMK_MACRO(jp_DO,     bindings = <&kp D &kp O>;)
         ZMK_MACRO(jp_GI,     bindings = <&kp G &kp I>;)
+        ZMK_MACRO(jp_PO,     bindings = <&kp P &kp O>;)
 
         ZMK_MACRO(jp_BI,     bindings = <&kp B &kp I>;)
         ZMK_MACRO(jp_ZU,     bindings = <&kp Z &kp U>;)
         ZMK_MACRO(jp_BU,     bindings = <&kp B &kp U>;)
         ZMK_MACRO(jp_BE,     bindings = <&kp B &kp E>;)
+        ZMK_MACRO(jp_PU,     bindings = <&kp P &kp U>;)
         ZMK_MACRO(jp_ZO,     bindings = <&kp Z &kp O>;)
+        ZMK_MACRO(jp_PE,     bindings = <&kp P &kp E>;)
         ZMK_MACRO(jp_BO,     bindings = <&kp B &kp O>;)
     };
 
