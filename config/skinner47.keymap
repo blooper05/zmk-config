@@ -76,17 +76,8 @@
     };
 
     macros {
-        ZMK_MACRO(eisuu,
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings = <&kp LANGUAGE_2>, <&to 0>;
-        )
-
-        ZMK_MACRO(kana,
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings = <&kp LANGUAGE_1>, <&to 6>;
-        )
+        ZMK_MACRO(eisuu, bindings = <&kp LANGUAGE_2>, <&to 0>; wait-ms = <40>; tap-ms = <40>;)
+        ZMK_MACRO(kana,  bindings = <&kp LANGUAGE_1>, <&to 6>; wait-ms = <40>; tap-ms = <40>;)
 
         ZMK_MACRO(jp_PERIOD, bindings = <&kp PERIOD>;)
         ZMK_MACRO(jp_KA,     bindings = <&kp K &kp A>;)
