@@ -236,7 +236,7 @@
 &trans  &jp_PERIOD  &jp_KA   &jp_TA  &jp_KO  &jp_SA                  &jp_RA  &jp_CHI  &jp_KU  &jp_TSU  &jp_COMMA  &trans
 &trans  &jp_U       &jp_SHI  &jp_TE  &jp_KE  &jp_SE                  &jp_HA  &jp_TO   &jp_KI  &jp_I    &jp_N      &kp BACKSPACE
 &trans  &trans      &jp_HI   &jp_SU  &jp_FU  &jp_HE                  &jp_ME  &jp_SO   &jp_NE  &jp_HO   &trans     &trans
-&trans  &trans      &trans   &trans  &trans  &trans  &eisuu  &trans  &trans                            &trans     &trans
+&trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans  &trans                            &trans     &trans
             >;
         };
     };
