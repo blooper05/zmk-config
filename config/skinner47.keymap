@@ -26,399 +26,342 @@
         };
 
         combo_ga {
-            timeout-ms = <50>;
             key-positions = <44 2>;
             bindings = <&jp_GA>;
             layers = <6>;
         };
 
         combo_da {
-            timeout-ms = <50>;
             key-positions = <44 3>;
             bindings = <&jp_DA>;
             layers = <6>;
         };
 
         combo_go {
-            timeout-ms = <50>;
             key-positions = <44 4>;
             bindings = <&jp_GO>;
             layers = <6>;
         };
 
         combo_za {
-            timeout-ms = <50>;
             key-positions = <44 5>;
             bindings = <&jp_ZA>;
             layers = <6>;
         };
 
         combo_pa {
-            timeout-ms = <50>;
             key-positions = <41 6>;
             bindings = <&jp_PA>;
             layers = <6>;
         };
 
         combo_di {
-            timeout-ms = <50>;
             key-positions = <41 7>;
             bindings = <&jp_DI>;
             layers = <6>;
         };
 
         combo_gu {
-            timeout-ms = <50>;
             key-positions = <41 8>;
             bindings = <&jp_GU>;
             layers = <6>;
         };
 
         combo_du {
-            timeout-ms = <50>;
             key-positions = <41 9>;
             bindings = <&jp_DU>;
             layers = <6>;
         };
 
         combo_pi {
-            timeout-ms = <50>;
             key-positions = <41 10>;
             bindings = <&jp_PI>;
             layers = <6>;
         };
 
         combo_vu {
-            timeout-ms = <50>;
             key-positions = <44 13>;
             bindings = <&jp_VU>;
             layers = <6>;
         };
 
         combo_zi {
-            timeout-ms = <50>;
             key-positions = <44 14>;
             bindings = <&jp_ZI>;
             layers = <6>;
         };
 
         combo_de {
-            timeout-ms = <50>;
             key-positions = <44 15>;
             bindings = <&jp_DE>;
             layers = <6>;
         };
 
         combo_ge {
-            timeout-ms = <50>;
             key-positions = <44 16>;
             bindings = <&jp_GE>;
             layers = <6>;
         };
 
         combo_ze {
-            timeout-ms = <50>;
             key-positions = <44 17>;
             bindings = <&jp_ZE>;
             layers = <6>;
         };
 
         combo_ba {
-            timeout-ms = <50>;
             key-positions = <41 18>;
             bindings = <&jp_BA>;
             layers = <6>;
         };
 
         combo_do {
-            timeout-ms = <50>;
             key-positions = <41 19>;
             bindings = <&jp_DO>;
             layers = <6>;
         };
 
         combo_gi {
-            timeout-ms = <50>;
             key-positions = <41 20>;
             bindings = <&jp_GI>;
             layers = <6>;
         };
 
         combo_po {
-            timeout-ms = <50>;
             key-positions = <41 21>;
             bindings = <&jp_PO>;
             layers = <6>;
         };
 
         combo_bi {
-            timeout-ms = <50>;
             key-positions = <44 26>;
             bindings = <&jp_BI>;
             layers = <6>;
         };
 
         combo_zu {
-            timeout-ms = <50>;
             key-positions = <44 27>;
             bindings = <&jp_ZU>;
             layers = <6>;
         };
 
         combo_bu {
-            timeout-ms = <50>;
             key-positions = <44 28>;
             bindings = <&jp_BU>;
             layers = <6>;
         };
 
         combo_be {
-            timeout-ms = <50>;
             key-positions = <44 29>;
             bindings = <&jp_BE>;
             layers = <6>;
         };
 
         combo_pu {
-            timeout-ms = <50>;
             key-positions = <41 30>;
             bindings = <&jp_PU>;
             layers = <6>;
         };
 
         combo_zo {
-            timeout-ms = <50>;
             key-positions = <41 31>;
             bindings = <&jp_ZO>;
             layers = <6>;
         };
 
         combo_pe {
-            timeout-ms = <50>;
             key-positions = <41 32>;
             bindings = <&jp_PE>;
             layers = <6>;
         };
 
         combo_bo {
-            timeout-ms = <50>;
             key-positions = <41 33>;
             bindings = <&jp_BO>;
             layers = <6>;
         };
 
         combo_la {
-            timeout-ms = <50>;
             key-positions = <41 1>;
             bindings = <&jp_LA>;
             layers = <6>;
         };
 
         combo_e {
-            timeout-ms = <50>;
             key-positions = <41 2>;
             bindings = <&jp_E>;
             layers = <6>;
         };
 
         combo_ri {
-            timeout-ms = <50>;
             key-positions = <41 3>;
             bindings = <&jp_RI>;
             layers = <6>;
         };
 
         combo_lya {
-            timeout-ms = <50>;
             key-positions = <41 4>;
             bindings = <&jp_LYA>;
             layers = <6>;
         };
 
         combo_re {
-            timeout-ms = <50>;
             key-positions = <41 5>;
             bindings = <&jp_RE>;
             layers = <6>;
         };
 
         combo_yo {
-            timeout-ms = <50>;
             key-positions = <44 6>;
             bindings = <&jp_YO>;
             layers = <6>;
         };
 
         combo_ni {
-            timeout-ms = <50>;
             key-positions = <44 7>;
             bindings = <&jp_NI>;
             layers = <6>;
         };
 
         combo_ru {
-            timeout-ms = <50>;
             key-positions = <44 8>;
             bindings = <&jp_RU>;
             layers = <6>;
         };
 
         combo_ma {
-            timeout-ms = <50>;
             key-positions = <44 9>;
             bindings = <&jp_MA>;
             layers = <6>;
         };
 
         combo_le {
-            timeout-ms = <50>;
             key-positions = <44 10>;
             bindings = <&jp_LE>;
             layers = <6>;
         };
 
         combo_wo {
-            timeout-ms = <50>;
             key-positions = <41 13>;
             bindings = <&jp_WO>;
             layers = <6>;
         };
 
         combo_a {
-            timeout-ms = <50>;
             key-positions = <41 14>;
             bindings = <&jp_A>;
             layers = <6>;
         };
 
         combo_na {
-            timeout-ms = <50>;
             key-positions = <41 15>;
             bindings = <&jp_NA>;
             layers = <6>;
         };
 
         combo_lyu {
-            timeout-ms = <50>;
             key-positions = <41 16>;
             bindings = <&jp_LYU>;
             layers = <6>;
         };
 
         combo_mo {
-            timeout-ms = <50>;
             key-positions = <41 17>;
             bindings = <&jp_MO>;
             layers = <6>;
         };
 
         combo_mi {
-            timeout-ms = <50>;
             key-positions = <44 18>;
             bindings = <&jp_MI>;
             layers = <6>;
         };
 
         combo_o {
-            timeout-ms = <50>;
             key-positions = <44 19>;
             bindings = <&jp_O>;
             layers = <6>;
         };
 
         combo_no {
-            timeout-ms = <50>;
             key-positions = <44 20>;
             bindings = <&jp_NO>;
             layers = <6>;
         };
 
         combo_lyo {
-            timeout-ms = <50>;
             key-positions = <44 21>;
             bindings = <&jp_LYO>;
             layers = <6>;
         };
 
         combo_ltu {
-            timeout-ms = <50>;
             key-positions = <44 22>;
             bindings = <&jp_LTU>;
             layers = <6>;
         };
 
         combo_lwa {
-            timeout-ms = <50>;
             key-positions = <44 23>;
             bindings = <&jp_LWA>;
             layers = <6>;
         };
 
         combo_lu {
-            timeout-ms = <50>;
             key-positions = <41 25>;
             bindings = <&jp_LU>;
             layers = <6>;
         };
 
         combo_minus {
-            timeout-ms = <50>;
             key-positions = <41 26>;
             bindings = <&jp_MINUS>;
             layers = <6>;
         };
 
         combo_ro {
-            timeout-ms = <50>;
             key-positions = <41 27>;
             bindings = <&jp_RO>;
             layers = <6>;
         };
 
         combo_ya {
-            timeout-ms = <50>;
             key-positions = <41 28>;
             bindings = <&jp_YA>;
             layers = <6>;
         };
 
         combo_li {
-            timeout-ms = <50>;
             key-positions = <41 29>;
             bindings = <&jp_LI>;
             layers = <6>;
         };
 
         combo_nu {
-            timeout-ms = <50>;
             key-positions = <44 30>;
             bindings = <&jp_NU>;
             layers = <6>;
         };
 
         combo_yu {
-            timeout-ms = <50>;
             key-positions = <44 31>;
             bindings = <&jp_YU>;
             layers = <6>;
         };
 
         combo_mu {
-            timeout-ms = <50>;
             key-positions = <44 32>;
             bindings = <&jp_MU>;
             layers = <6>;
         };
 
         combo_wa {
-            timeout-ms = <50>;
             key-positions = <44 33>;
             bindings = <&jp_WA>;
             layers = <6>;
         };
 
         combo_lo {
-            timeout-ms = <50>;
             key-positions = <44 34>;
             bindings = <&jp_LO>;
             layers = <6>;
