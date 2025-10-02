@@ -38,6 +38,37 @@
             tap-ms = <40>;
             bindings = <&kp LANGUAGE_1>, <&to 6>;
         )
+
+        ZMK_MACRO(jp_PERIOD, bindings = <&kp PERIOD>;)
+        ZMK_MACRO(jp_KA,     bindings = <&kp K &kp A>;)
+        ZMK_MACRO(jp_TA,     bindings = <&kp T &kp A>;)
+        ZMK_MACRO(jp_KO,     bindings = <&kp K &kp O>;)
+        ZMK_MACRO(jp_SA,     bindings = <&kp S &kp A>;)
+        ZMK_MACRO(jp_RA,     bindings = <&kp R &kp A>;)
+        ZMK_MACRO(jp_CHI,    bindings = <&kp T &kp I>;)
+        ZMK_MACRO(jp_KU,     bindings = <&kp K &kp U>;)
+        ZMK_MACRO(jp_TSU,    bindings = <&kp T &kp U>;)
+        ZMK_MACRO(jp_COMMA,  bindings = <&kp COMMA>;)
+
+        ZMK_MACRO(jp_U,      bindings = <&kp U>;)
+        ZMK_MACRO(jp_SHI,    bindings = <&kp S &kp I>;)
+        ZMK_MACRO(jp_TE,     bindings = <&kp T &kp E>;)
+        ZMK_MACRO(jp_KE,     bindings = <&kp K &kp E>;)
+        ZMK_MACRO(jp_SE,     bindings = <&kp S &kp E>;)
+        ZMK_MACRO(jp_HA,     bindings = <&kp H &kp A>;)
+        ZMK_MACRO(jp_TO,     bindings = <&kp T &kp O>;)
+        ZMK_MACRO(jp_KI,     bindings = <&kp K &kp I>;)
+        ZMK_MACRO(jp_I,      bindings = <&kp I>;)
+        ZMK_MACRO(jp_N,      bindings = <&kp N &kp N>;)
+
+        ZMK_MACRO(jp_HI,     bindings = <&kp H &kp I>;)
+        ZMK_MACRO(jp_SU,     bindings = <&kp S &kp U>;)
+        ZMK_MACRO(jp_FU,     bindings = <&kp H &kp U>;)
+        ZMK_MACRO(jp_HE,     bindings = <&kp H &kp E>;)
+        ZMK_MACRO(jp_ME,     bindings = <&kp M &kp E>;)
+        ZMK_MACRO(jp_SO,     bindings = <&kp S &kp O>;)
+        ZMK_MACRO(jp_NE,     bindings = <&kp N &kp E>;)
+        ZMK_MACRO(jp_HO,     bindings = <&kp H &kp O>;)
     };
 
     keymap {
@@ -99,10 +130,10 @@
 
         thumb_shift_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &eisuu  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &jp_PERIOD  &jp_KA   &jp_TA  &jp_KO  &jp_SA                  &jp_RA  &jp_CHI  &jp_KU  &jp_TSU  &jp_COMMA  &trans
+&trans  &jp_U       &jp_SHI  &jp_TE  &jp_KE  &jp_SE                  &jp_HA  &jp_TO   &jp_KI  &jp_I    &jp_N      &trans
+&trans  &trans      &jp_HI   &jp_SU  &jp_FU  &jp_HE                  &jp_ME  &jp_SO   &jp_NE  &jp_HO   &trans     &trans
+&trans  &trans      &trans   &trans  &eisuu  &trans  &trans  &trans  &trans                            &trans     &trans
             >;
         };
     };
