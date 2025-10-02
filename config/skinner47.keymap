@@ -11,73 +11,73 @@
         combo_backspace { key-positions = <10 11>; bindings = <&kp BACKSPACE>; timeout-ms = <50>;  };
         combo_return    { key-positions = <12 31>; bindings = <&kp RETURN>;    timeout-ms = <500>; };
 
-        combo_ga    { layers = <6>; key-positions = <44 2>;  bindings = <&jp_GA>;    };
-        combo_da    { layers = <6>; key-positions = <44 3>;  bindings = <&jp_DA>;    };
-        combo_go    { layers = <6>; key-positions = <44 4>;  bindings = <&jp_GO>;    };
-        combo_za    { layers = <6>; key-positions = <44 5>;  bindings = <&jp_ZA>;    };
-        combo_pa    { layers = <6>; key-positions = <41 6>;  bindings = <&jp_PA>;    };
-        combo_di    { layers = <6>; key-positions = <41 7>;  bindings = <&jp_DI>;    };
-        combo_gu    { layers = <6>; key-positions = <41 8>;  bindings = <&jp_GU>;    };
-        combo_du    { layers = <6>; key-positions = <41 9>;  bindings = <&jp_DU>;    };
-        combo_pi    { layers = <6>; key-positions = <41 10>; bindings = <&jp_PI>;    };
+        combo_ga    { layers = <1>; key-positions = <44 2>;  bindings = <&jp_GA>;    };
+        combo_da    { layers = <1>; key-positions = <44 3>;  bindings = <&jp_DA>;    };
+        combo_go    { layers = <1>; key-positions = <44 4>;  bindings = <&jp_GO>;    };
+        combo_za    { layers = <1>; key-positions = <44 5>;  bindings = <&jp_ZA>;    };
+        combo_pa    { layers = <1>; key-positions = <41 6>;  bindings = <&jp_PA>;    };
+        combo_di    { layers = <1>; key-positions = <41 7>;  bindings = <&jp_DI>;    };
+        combo_gu    { layers = <1>; key-positions = <41 8>;  bindings = <&jp_GU>;    };
+        combo_du    { layers = <1>; key-positions = <41 9>;  bindings = <&jp_DU>;    };
+        combo_pi    { layers = <1>; key-positions = <41 10>; bindings = <&jp_PI>;    };
 
-        combo_vu    { layers = <6>; key-positions = <44 13>; bindings = <&jp_VU>;    };
-        combo_zi    { layers = <6>; key-positions = <44 14>; bindings = <&jp_ZI>;    };
-        combo_de    { layers = <6>; key-positions = <44 15>; bindings = <&jp_DE>;    };
-        combo_ge    { layers = <6>; key-positions = <44 16>; bindings = <&jp_GE>;    };
-        combo_ze    { layers = <6>; key-positions = <44 17>; bindings = <&jp_ZE>;    };
-        combo_ba    { layers = <6>; key-positions = <41 18>; bindings = <&jp_BA>;    };
-        combo_do    { layers = <6>; key-positions = <41 19>; bindings = <&jp_DO>;    };
-        combo_gi    { layers = <6>; key-positions = <41 20>; bindings = <&jp_GI>;    };
-        combo_po    { layers = <6>; key-positions = <41 21>; bindings = <&jp_PO>;    };
+        combo_vu    { layers = <1>; key-positions = <44 13>; bindings = <&jp_VU>;    };
+        combo_zi    { layers = <1>; key-positions = <44 14>; bindings = <&jp_ZI>;    };
+        combo_de    { layers = <1>; key-positions = <44 15>; bindings = <&jp_DE>;    };
+        combo_ge    { layers = <1>; key-positions = <44 16>; bindings = <&jp_GE>;    };
+        combo_ze    { layers = <1>; key-positions = <44 17>; bindings = <&jp_ZE>;    };
+        combo_ba    { layers = <1>; key-positions = <41 18>; bindings = <&jp_BA>;    };
+        combo_do    { layers = <1>; key-positions = <41 19>; bindings = <&jp_DO>;    };
+        combo_gi    { layers = <1>; key-positions = <41 20>; bindings = <&jp_GI>;    };
+        combo_po    { layers = <1>; key-positions = <41 21>; bindings = <&jp_PO>;    };
 
-        combo_bi    { layers = <6>; key-positions = <44 26>; bindings = <&jp_BI>;    };
-        combo_zu    { layers = <6>; key-positions = <44 27>; bindings = <&jp_ZU>;    };
-        combo_bu    { layers = <6>; key-positions = <44 28>; bindings = <&jp_BU>;    };
-        combo_be    { layers = <6>; key-positions = <44 29>; bindings = <&jp_BE>;    };
-        combo_pu    { layers = <6>; key-positions = <41 30>; bindings = <&jp_PU>;    };
-        combo_zo    { layers = <6>; key-positions = <41 31>; bindings = <&jp_ZO>;    };
-        combo_pe    { layers = <6>; key-positions = <41 32>; bindings = <&jp_PE>;    };
-        combo_bo    { layers = <6>; key-positions = <41 33>; bindings = <&jp_BO>;    };
+        combo_bi    { layers = <1>; key-positions = <44 26>; bindings = <&jp_BI>;    };
+        combo_zu    { layers = <1>; key-positions = <44 27>; bindings = <&jp_ZU>;    };
+        combo_bu    { layers = <1>; key-positions = <44 28>; bindings = <&jp_BU>;    };
+        combo_be    { layers = <1>; key-positions = <44 29>; bindings = <&jp_BE>;    };
+        combo_pu    { layers = <1>; key-positions = <41 30>; bindings = <&jp_PU>;    };
+        combo_zo    { layers = <1>; key-positions = <41 31>; bindings = <&jp_ZO>;    };
+        combo_pe    { layers = <1>; key-positions = <41 32>; bindings = <&jp_PE>;    };
+        combo_bo    { layers = <1>; key-positions = <41 33>; bindings = <&jp_BO>;    };
 
-        combo_la    { layers = <6>; key-positions = <41 1>;  bindings = <&jp_LA>;    };
-        combo_e     { layers = <6>; key-positions = <41 2>;  bindings = <&jp_E>;     };
-        combo_ri    { layers = <6>; key-positions = <41 3>;  bindings = <&jp_RI>;    };
-        combo_lya   { layers = <6>; key-positions = <41 4>;  bindings = <&jp_LYA>;   };
-        combo_re    { layers = <6>; key-positions = <41 5>;  bindings = <&jp_RE>;    };
-        combo_yo    { layers = <6>; key-positions = <44 6>;  bindings = <&jp_YO>;    };
-        combo_ni    { layers = <6>; key-positions = <44 7>;  bindings = <&jp_NI>;    };
-        combo_ru    { layers = <6>; key-positions = <44 8>;  bindings = <&jp_RU>;    };
-        combo_ma    { layers = <6>; key-positions = <44 9>;  bindings = <&jp_MA>;    };
-        combo_le    { layers = <6>; key-positions = <44 10>; bindings = <&jp_LE>;    };
+        combo_la    { layers = <1>; key-positions = <41 1>;  bindings = <&jp_LA>;    };
+        combo_e     { layers = <1>; key-positions = <41 2>;  bindings = <&jp_E>;     };
+        combo_ri    { layers = <1>; key-positions = <41 3>;  bindings = <&jp_RI>;    };
+        combo_lya   { layers = <1>; key-positions = <41 4>;  bindings = <&jp_LYA>;   };
+        combo_re    { layers = <1>; key-positions = <41 5>;  bindings = <&jp_RE>;    };
+        combo_yo    { layers = <1>; key-positions = <44 6>;  bindings = <&jp_YO>;    };
+        combo_ni    { layers = <1>; key-positions = <44 7>;  bindings = <&jp_NI>;    };
+        combo_ru    { layers = <1>; key-positions = <44 8>;  bindings = <&jp_RU>;    };
+        combo_ma    { layers = <1>; key-positions = <44 9>;  bindings = <&jp_MA>;    };
+        combo_le    { layers = <1>; key-positions = <44 10>; bindings = <&jp_LE>;    };
 
-        combo_wo    { layers = <6>; key-positions = <41 13>; bindings = <&jp_WO>;    };
-        combo_a     { layers = <6>; key-positions = <41 14>; bindings = <&jp_A>;     };
-        combo_na    { layers = <6>; key-positions = <41 15>; bindings = <&jp_NA>;    };
-        combo_lyu   { layers = <6>; key-positions = <41 16>; bindings = <&jp_LYU>;   };
-        combo_mo    { layers = <6>; key-positions = <41 17>; bindings = <&jp_MO>;    };
-        combo_mi    { layers = <6>; key-positions = <44 18>; bindings = <&jp_MI>;    };
-        combo_o     { layers = <6>; key-positions = <44 19>; bindings = <&jp_O>;     };
-        combo_no    { layers = <6>; key-positions = <44 20>; bindings = <&jp_NO>;    };
-        combo_lyo   { layers = <6>; key-positions = <44 21>; bindings = <&jp_LYO>;   };
-        combo_ltu   { layers = <6>; key-positions = <44 22>; bindings = <&jp_LTU>;   };
-        combo_lwa   { layers = <6>; key-positions = <44 23>; bindings = <&jp_LWA>;   };
+        combo_wo    { layers = <1>; key-positions = <41 13>; bindings = <&jp_WO>;    };
+        combo_a     { layers = <1>; key-positions = <41 14>; bindings = <&jp_A>;     };
+        combo_na    { layers = <1>; key-positions = <41 15>; bindings = <&jp_NA>;    };
+        combo_lyu   { layers = <1>; key-positions = <41 16>; bindings = <&jp_LYU>;   };
+        combo_mo    { layers = <1>; key-positions = <41 17>; bindings = <&jp_MO>;    };
+        combo_mi    { layers = <1>; key-positions = <44 18>; bindings = <&jp_MI>;    };
+        combo_o     { layers = <1>; key-positions = <44 19>; bindings = <&jp_O>;     };
+        combo_no    { layers = <1>; key-positions = <44 20>; bindings = <&jp_NO>;    };
+        combo_lyo   { layers = <1>; key-positions = <44 21>; bindings = <&jp_LYO>;   };
+        combo_ltu   { layers = <1>; key-positions = <44 22>; bindings = <&jp_LTU>;   };
+        combo_lwa   { layers = <1>; key-positions = <44 23>; bindings = <&jp_LWA>;   };
 
-        combo_lu    { layers = <6>; key-positions = <41 25>; bindings = <&jp_LU>;    };
-        combo_minus { layers = <6>; key-positions = <41 26>; bindings = <&jp_MINUS>; };
-        combo_ro    { layers = <6>; key-positions = <41 27>; bindings = <&jp_RO>;    };
-        combo_ya    { layers = <6>; key-positions = <41 28>; bindings = <&jp_YA>;    };
-        combo_li    { layers = <6>; key-positions = <41 29>; bindings = <&jp_LI>;    };
-        combo_nu    { layers = <6>; key-positions = <44 30>; bindings = <&jp_NU>;    };
-        combo_yu    { layers = <6>; key-positions = <44 31>; bindings = <&jp_YU>;    };
-        combo_mu    { layers = <6>; key-positions = <44 32>; bindings = <&jp_MU>;    };
-        combo_wa    { layers = <6>; key-positions = <44 33>; bindings = <&jp_WA>;    };
-        combo_lo    { layers = <6>; key-positions = <44 34>; bindings = <&jp_LO>;    };
+        combo_lu    { layers = <1>; key-positions = <41 25>; bindings = <&jp_LU>;    };
+        combo_minus { layers = <1>; key-positions = <41 26>; bindings = <&jp_MINUS>; };
+        combo_ro    { layers = <1>; key-positions = <41 27>; bindings = <&jp_RO>;    };
+        combo_ya    { layers = <1>; key-positions = <41 28>; bindings = <&jp_YA>;    };
+        combo_li    { layers = <1>; key-positions = <41 29>; bindings = <&jp_LI>;    };
+        combo_nu    { layers = <1>; key-positions = <44 30>; bindings = <&jp_NU>;    };
+        combo_yu    { layers = <1>; key-positions = <44 31>; bindings = <&jp_YU>;    };
+        combo_mu    { layers = <1>; key-positions = <44 32>; bindings = <&jp_MU>;    };
+        combo_wa    { layers = <1>; key-positions = <44 33>; bindings = <&jp_WA>;    };
+        combo_lo    { layers = <1>; key-positions = <44 34>; bindings = <&jp_LO>;    };
     };
 
     macros {
         ZMK_MACRO(eisuu, bindings = <&kp LANGUAGE_2>, <&to 0>; wait-ms = <40>; tap-ms = <40>;)
-        ZMK_MACRO(kana,  bindings = <&kp LANGUAGE_1>, <&to 6>; wait-ms = <40>; tap-ms = <40>;)
+        ZMK_MACRO(kana,  bindings = <&kp LANGUAGE_1>, <&to 1>; wait-ms = <40>; tap-ms = <40>;)
 
         ZMK_MACRO(jp_PERIOD,    bindings = <&kp PERIOD>;)
         ZMK_MACRO(jp_KA,        bindings = <&kp K &kp A>;)
@@ -181,9 +181,18 @@
         default_layer {
             bindings = <
 &kp TAB           &kp Q  &kp W   &kp E   &kp R         &kp T                       &kp Y        &kp U  &kp I      &kp O       &kp P            &kp LEFT_BRACKET
-&kp LEFT_CONTROL  &kp A  &kp S   &kp D   &kp F         &kp G                       &kp H        &kp J  &kp K      &kp L       &lt 4 SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_CONTROL  &kp A  &kp S   &kp D   &kp F         &kp G                       &kp H        &kp J  &kp K      &kp L       &lt 5 SEMICOLON  &kp SINGLE_QUOTE
 &kp LEFT_SHIFT    &kp Z  &kp X   &kp C   &kp V         &kp B                       &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH        &kp RIGHT_SHIFT
-&mo 2             &mo 3  &trans  &trans  &kp LEFT_GUI  &lt 1 SPACE  &eisuu  &kana  &lt 1 SPACE                                &mo 3            &mo 2
+&mo 3             &mo 4  &trans  &trans  &kp LEFT_GUI  &lt 2 SPACE  &eisuu  &kana  &lt 2 SPACE                                &mo 4            &mo 3
+            >;
+        };
+
+        thumb_shift_layer {
+            bindings = <
+&trans  &jp_PERIOD  &jp_KA   &jp_TA  &jp_KO  &jp_SA                  &jp_RA  &jp_CHI  &jp_KU  &jp_TSU  &jp_COMMA  &trans
+&trans  &jp_U       &jp_SHI  &jp_TE  &jp_KE  &jp_SE                  &jp_HA  &jp_TO   &jp_KI  &jp_I    &jp_N      &jp_BACKSPACE
+&trans  &trans      &jp_HI   &jp_SU  &jp_FU  &jp_HE                  &jp_ME  &jp_SO   &jp_NE  &jp_HO   &trans     &trans
+&trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans  &trans                            &trans     &trans
             >;
         };
 
@@ -217,7 +226,7 @@
         mouse_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &mkp MB1  &mkp MB2  &mo 5   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &mkp MB1  &mkp MB2  &mo 6   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5                              &trans  &trans
             >;
@@ -229,15 +238,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans    &mkp MB1  &mkp MB2  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5                              &trans  &trans
-            >;
-        };
-
-        thumb_shift_layer {
-            bindings = <
-&trans  &jp_PERIOD  &jp_KA   &jp_TA  &jp_KO  &jp_SA                  &jp_RA  &jp_CHI  &jp_KU  &jp_TSU  &jp_COMMA  &trans
-&trans  &jp_U       &jp_SHI  &jp_TE  &jp_KE  &jp_SE                  &jp_HA  &jp_TO   &jp_KI  &jp_I    &jp_N      &jp_BACKSPACE
-&trans  &trans      &jp_HI   &jp_SU  &jp_FU  &jp_HE                  &jp_ME  &jp_SO   &jp_NE  &jp_HO   &trans     &trans
-&trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans  &trans                            &trans     &trans
             >;
         };
     };
