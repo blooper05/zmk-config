@@ -7,9 +7,8 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_escape    { key-positions = <0  1>;  bindings = <&kp ESCAPE>;    timeout-ms = <50>;  };
-        combo_backspace { key-positions = <10 11>; bindings = <&kp BACKSPACE>; timeout-ms = <50>;  };
-        combo_return    { key-positions = <12 31>; bindings = <&kp RETURN>;    timeout-ms = <500>; };
+        combo_escape    { key-positions = <0  1>;  bindings = <&kp ESCAPE>;    timeout-ms = <50>; };
+        combo_backspace { key-positions = <10 11>; bindings = <&kp BACKSPACE>; timeout-ms = <50>; };
 
         combo_ga    { layers = <1>; key-positions = <44 2>;  bindings = <&jp_GA>;    };
         combo_da    { layers = <1>; key-positions = <44 3>;  bindings = <&jp_DA>;    };
@@ -199,7 +198,7 @@
         number_layer {
             bindings = <
 &kp GRAVE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp MINUS
-&trans       &trans        &trans        &trans        &trans        &trans                        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &kp EQUAL
+&trans       &trans        &trans        &trans        &trans        &trans                        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp RETURN    &kp EQUAL
 &trans       &trans        &trans        &trans        &trans        &trans                        &trans          &trans          &trans        &trans           &trans        &kp BACKSLASH
 &bootloader  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                         &trans        &bootloader
             >;
