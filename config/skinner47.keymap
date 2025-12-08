@@ -181,15 +181,20 @@
         ZMK_MACRO(jp_LO,        bindings = <&kp L &kp O>;)
     };
 
+    behaviors {
+        td_eisuu: tap_dance_eisuu { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&none>, <&eisuu>; };
+        td_kana:  tap_dance_kana  { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&none>, <&kana>;  };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q   &kp W   &kp E   &kp R         &kp T                                  &kp Y                   &kp U  &kp I      &kp O       &kp P                      &kp LEFT_BRACKET
-&kp LEFT_CONTROL  &kp A   &kp S   &kp D   &kp F         &kp G                                  &kp H                   &kp J  &kp K      &kp L       &lt MOUSE_LAYER SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp Z   &kp X   &kp C   &kp V         &kp B                                  &kp N                   &kp M  &kp COMMA  &kp PERIOD  &kp SLASH                  &kp RIGHT_SHIFT
-&mo SYMBOL_LAYER  &trans  &trans  &trans  &kp LEFT_GUI  &lt NUMBER_LAYER SPACE  &eisuu  &kana  &lt NUMBER_LAYER SPACE                                &trans                     &mo SYMBOL_LAYER
+&kp TAB           &kp Q   &kp W   &kp E   &kp R         &kp T                                        &kp Y                   &kp U  &kp I      &kp O       &kp P                      &kp LEFT_BRACKET
+&kp LEFT_CONTROL  &kp A   &kp S   &kp D   &kp F         &kp G                                        &kp H                   &kp J  &kp K      &kp L       &lt MOUSE_LAYER SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp Z   &kp X   &kp C   &kp V         &kp B                                        &kp N                   &kp M  &kp COMMA  &kp PERIOD  &kp SLASH                  &kp RIGHT_SHIFT
+&mo SYMBOL_LAYER  &trans  &trans  &trans  &kp LEFT_GUI  &lt NUMBER_LAYER SPACE  &td_eisuu  &td_kana  &lt NUMBER_LAYER SPACE                                &trans                     &mo SYMBOL_LAYER
             >;
         };
 
